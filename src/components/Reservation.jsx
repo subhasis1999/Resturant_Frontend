@@ -150,7 +150,6 @@ const Reservation = () => {
       );
 
       console.log(data);
-      // success message / reset form here if needed
       toast.success(data.message);
       setFirstName("");
       setLastName("");
